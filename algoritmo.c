@@ -1,5 +1,3 @@
-
-
 #include <stdio.h>
 #include <time.h>
 int main(int argc, char *argv[])
@@ -21,7 +19,5 @@ printf("El resultado de x-y es: %f\n",r);
 printf("El resultado de x*y es: %f\n",p);
 printf("El resultado de x/y es: %f\n",d);
 
-printf("....Tiempo transcurrido: %f segundos\n",((double)clock() -
-start)/CLOCKS_PER_SEC);
-
+printf("....Tiempo transcurrido: %f segundos\n",((double)clock() - start)/CLOCKS_PER_SEC);
 }
