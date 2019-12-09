@@ -19,9 +19,9 @@ int cont;
 	d=0;
 	//Tiempo al inicio
 	start = clock();
-	for (cont=1;cont<=100000;cont=cont+1)
+	for (cont=1;cont<=400000;cont=cont+1)
 	{
-    s = s + (x+y);
+    	  s = s + (x+y);
 	  r = r + (x-y);
 	  p = p + (x*y);
 	  d = d + (x/y);
